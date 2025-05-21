@@ -1,0 +1,83 @@
+# Общие файлы
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Файлы среды
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Папки и файлы Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Папки Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+
+# Папки IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.vs/
+*.swp
+*.swo
+
+# Файлы базы данных
+*.sqlite
+*.sqlite3
+*.db
+
+# Локальные файлы конфигурации
+config.local.js
+config.local.py
+
+# Файлы сборки
+/dist/
+/build/
+/out/
+/.next/
+/.nuxt/
+
+# Другие специфические файлы
+.vercel
+.netlify
